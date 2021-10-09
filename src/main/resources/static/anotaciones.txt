@@ -1,0 +1,11 @@
+Para refenciar estos tipos de archivos se utiliza la siguiente etiqueta
+
+<link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"></link>
+
+'rel' indica la relacion ente este documento y el al hacemos referencia en tag link
+'type' se usa para espisificar el tipo de documento
+'th:href' le espicificamos la ruta al documento como se esta usando thymelyf usamos @{} 
+y la ruta es apartir de la carpeta static
+
+para las imagenes se usa algo similar
+<img th:src="@{/images/spring.png}"></img>
